@@ -1,0 +1,42 @@
+@page "/login"
+@using Microsoft.AspNetCore.Components.Authorization
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager Navigation
+
+<PageTitle>Login</PageTitle>
+
+<h3>Login</h3>
+
+<AuthorizeView>
+    <Authorized>
+        <p>You are already logged in.</p>
+        <button @onclick="Logout">Logout</button>
+    </Authorized>
+    <NotAuthorized>
+        <p>Please log in using your Windows credentials.</p>
+        <button @onclick="Login">Login</button>
+    </NotAuthorized>
+</AuthorizeView>
+
+@code {
+    private async Task Login()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        if (user.Identity.IsAuthenticated)
+        {
+            Navigation.NavigateTo("/");
+        }
+        else
+        {
+            // Implement Windows authentication logic here
+        }
+    }
+
+    private async Task Logout()
+    {
+        // Implement logout logic here
+        Navigation.NavigateTo("/login");
+    }
+}
