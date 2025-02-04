@@ -1,7 +1,11 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
+using Universidad.GestionDocentes.Api;
+using Universidad.GestionDocentes.Application;
+using Universidad.GestionDocentes.Domain;
+using Universidad.GestionDocentes.Infrastructure;
 
-namespace GestionDocentes
+namespace Universidad.GestionDocentes
 {
     public class Program
     {

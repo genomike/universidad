@@ -16,6 +16,14 @@ Este proyecto es una plataforma web para la gestión de una universidad, impleme
 - Gestión de almacén (requerimientos)
 - Gestión de RRHH (asistencias)
 
+La arquitectura del sistema se organiza en las siguientes capas según el enfoque DDD:
+
+- Api
+- Application
+- Domain
+- Infrastructure
+- Tests
+
 ## Configuración del Entorno de Desarrollo
 
 Para configurar el entorno de desarrollo, siga los siguientes pasos:

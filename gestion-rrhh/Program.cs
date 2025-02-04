@@ -1,7 +1,11 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
+using Universidad.GestionRRHH.Api;
+using Universidad.GestionRRHH.Application;
+using Universidad.GestionRRHH.Domain;
+using Universidad.GestionRRHH.Infrastructure;
 
-namespace GestionRRHH
+namespace Universidad.GestionRRHH
 {
     public class Program
     {
