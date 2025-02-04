@@ -1,7 +1,11 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
+using Universidad.GestionFinanciera.Api;
+using Universidad.GestionFinanciera.Application;
+using Universidad.GestionFinanciera.Domain;
+using Universidad.GestionFinanciera.Infrastructure;
 
-namespace GestionFinanciera
+namespace Universidad.GestionFinanciera
 {
     public class Program
     {

@@ -1,7 +1,11 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
+using Universidad.GestionLogistica.Api;
+using Universidad.GestionLogistica.Application;
+using Universidad.GestionLogistica.Domain;
+using Universidad.GestionLogistica.Infrastructure;
 
-namespace GestionLogistica
+namespace Universidad.GestionLogistica
 {
     public class Program
     {
