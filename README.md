@@ -39,15 +39,13 @@ Para configurar el entorno de desarrollo, siga los siguientes pasos:
 
 3. Instale las dependencias de cada módulo:
    ```bash
-   cd gestion-docentes
+   cd modulo-academico/gestion-docentes
    dotnet restore
    cd ../gestion-horarios
    dotnet restore
    cd ../gestion-alumnos
    dotnet restore
-   cd ../gestion-asignacion
-   dotnet restore
-   cd ../gestion-pagos
+   cd ../../modulo-financiero/gestion-pagos
    dotnet restore
    cd ../gestion-ventas
    dotnet restore
@@ -55,13 +53,13 @@ Para configurar el entorno de desarrollo, siga los siguientes pasos:
    dotnet restore
    cd ../gestion-financiera
    dotnet restore
-   cd ../gestion-logistica
+   cd ../../modulo-recursos-logistica/gestion-logistica
    dotnet restore
    cd ../gestion-almacen
    dotnet restore
    cd ../gestion-rrhh
    dotnet restore
-   cd ../frontend
+   cd ../../modulo-frontend-core/frontend
    dotnet restore
    ```
 
@@ -71,15 +69,13 @@ Para ejecutar el proyecto, siga los siguientes pasos:
 
 1. Inicie los microservicios:
    ```bash
-   cd gestion-docentes
+   cd modulo-academico/gestion-docentes
    dotnet run
    cd ../gestion-horarios
    dotnet run
    cd ../gestion-alumnos
    dotnet run
-   cd ../gestion-asignacion
-   dotnet run
-   cd ../gestion-pagos
+   cd ../../modulo-financiero/gestion-pagos
    dotnet run
    cd ../gestion-ventas
    dotnet run
@@ -87,7 +83,7 @@ Para ejecutar el proyecto, siga los siguientes pasos:
    dotnet run
    cd ../gestion-financiera
    dotnet run
-   cd ../gestion-logistica
+   cd ../../modulo-recursos-logistica/gestion-logistica
    dotnet run
    cd ../gestion-almacen
    dotnet run
@@ -97,7 +93,7 @@ Para ejecutar el proyecto, siga los siguientes pasos:
 
 2. Inicie la aplicación frontend:
    ```bash
-   cd frontend
+   cd ../../modulo-frontend-core/frontend
    dotnet run
    ```
 
