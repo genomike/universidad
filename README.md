@@ -4,17 +4,28 @@
 
 Este proyecto es una plataforma web para la gestión de una universidad, implementada con .NET C# para el backend y Blazor para el frontend. La arquitectura del sistema sigue el enfoque de Domain-Driven Design (DDD) y cada módulo se implementa como un microservicio independiente. Los módulos incluidos en el sistema son:
 
+### 1. Módulo Académico
 - Gestión de docentes
 - Gestión de horarios de clases
 - Gestión de alumnos (status de alumnos, matrículas)
-- Gestión de asignación de docentes-cursos-alumnos
+- Gestión de cursos
+
+### 2. Módulo Financiero
 - Gestión de pagos
 - Gestión de ventas de cursos a alumnos
 - Gestión contable
 - Gestión financiera (nóminas)
+
+### 3. Módulo Recursos y Logística
 - Gestión logística
 - Gestión de almacén (requerimientos)
 - Gestión de RRHH (asistencias)
+
+### 4. Módulo Frontend/Core
+- Frontend
+- Autenticación/Autorización
+- APIs Gateway
+- Servicios compartidos
 
 La arquitectura del sistema se organiza en las siguientes capas según el enfoque DDD:
 
@@ -45,7 +56,7 @@ Para configurar el entorno de desarrollo, siga los siguientes pasos:
    dotnet restore
    cd ../gestion-alumnos
    dotnet restore
-   cd ../gestion-asignacion
+   cd ../gestion-cursos
    dotnet restore
    cd ../gestion-pagos
    dotnet restore
@@ -77,7 +88,7 @@ Para ejecutar el proyecto, siga los siguientes pasos:
    dotnet run
    cd ../gestion-alumnos
    dotnet run
-   cd ../gestion-asignacion
+   cd ../gestion-cursos
    dotnet run
    cd ../gestion-pagos
    dotnet run
