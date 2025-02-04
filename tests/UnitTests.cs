@@ -2,7 +2,7 @@ using Xunit;
 
 namespace Universidad.Tests.Api
 {
-    public class ApiTests
+    public class ModuloAcademicoApiTests
     {
         [Fact]
         public void TestGestionDocentesApi()
@@ -26,12 +26,15 @@ namespace Universidad.Tests.Api
         }
 
         [Fact]
-        public void TestGestionAsignacionApi()
+        public void TestGestionCursosApi()
         {
-            // Implement unit tests for the teacher-course-student assignment management API
+            // Implement unit tests for the course management API
             Assert.True(true);
         }
+    }
 
+    public class ModuloFinancieroApiTests
+    {
         [Fact]
         public void TestGestionPagosApi()
         {
@@ -59,7 +62,10 @@ namespace Universidad.Tests.Api
             // Implement unit tests for the financial management API
             Assert.True(true);
         }
+    }
 
+    public class ModuloRecursosLogisticaApiTests
+    {
         [Fact]
         public void TestGestionLogisticaApi()
         {
@@ -81,11 +87,42 @@ namespace Universidad.Tests.Api
             Assert.True(true);
         }
     }
+
+    public class ModuloFrontendCoreApiTests
+    {
+        [Fact]
+        public void TestFrontendApi()
+        {
+            // Implement unit tests for the frontend API
+            Assert.True(true);
+        }
+
+        [Fact]
+        public void TestAutenticacionAutorizacionApi()
+        {
+            // Implement unit tests for the authentication/authorization API
+            Assert.True(true);
+        }
+
+        [Fact]
+        public void TestApisGatewayApi()
+        {
+            // Implement unit tests for the APIs Gateway
+            Assert.True(true);
+        }
+
+        [Fact]
+        public void TestServiciosCompartidosApi()
+        {
+            // Implement unit tests for the shared services API
+            Assert.True(true);
+        }
+    }
 }
 
 namespace Universidad.Tests.Application
 {
-    public class ApplicationTests
+    public class ModuloAcademicoApplicationTests
     {
         [Fact]
         public void TestGestionDocentesApplication()
@@ -109,12 +146,15 @@ namespace Universidad.Tests.Application
         }
 
         [Fact]
-        public void TestGestionAsignacionApplication()
+        public void TestGestionCursosApplication()
         {
-            // Implement unit tests for the teacher-course-student assignment management application
+            // Implement unit tests for the course management application
             Assert.True(true);
         }
+    }
 
+    public class ModuloFinancieroApplicationTests
+    {
         [Fact]
         public void TestGestionPagosApplication()
         {
@@ -142,7 +182,10 @@ namespace Universidad.Tests.Application
             // Implement unit tests for the financial management application
             Assert.True(true);
         }
+    }
 
+    public class ModuloRecursosLogisticaApplicationTests
+    {
         [Fact]
         public void TestGestionLogisticaApplication()
         {
@@ -164,11 +207,42 @@ namespace Universidad.Tests.Application
             Assert.True(true);
         }
     }
+
+    public class ModuloFrontendCoreApplicationTests
+    {
+        [Fact]
+        public void TestFrontendApplication()
+        {
+            // Implement unit tests for the frontend application
+            Assert.True(true);
+        }
+
+        [Fact]
+        public void TestAutenticacionAutorizacionApplication()
+        {
+            // Implement unit tests for the authentication/authorization application
+            Assert.True(true);
+        }
+
+        [Fact]
+        public void TestApisGatewayApplication()
+        {
+            // Implement unit tests for the APIs Gateway
+            Assert.True(true);
+        }
+
+        [Fact]
+        public void TestServiciosCompartidosApplication()
+        {
+            // Implement unit tests for the shared services application
+            Assert.True(true);
+        }
+    }
 }
 
 namespace Universidad.Tests.Domain
 {
-    public class DomainTests
+    public class ModuloAcademicoDomainTests
     {
         [Fact]
         public void TestGestionDocentesDomain()
@@ -192,12 +266,15 @@ namespace Universidad.Tests.Domain
         }
 
         [Fact]
-        public void TestGestionAsignacionDomain()
+        public void TestGestionCursosDomain()
         {
-            // Implement unit tests for the teacher-course-student assignment management domain
+            // Implement unit tests for the course management domain
             Assert.True(true);
         }
+    }
 
+    public class ModuloFinancieroDomainTests
+    {
         [Fact]
         public void TestGestionPagosDomain()
         {
@@ -225,7 +302,10 @@ namespace Universidad.Tests.Domain
             // Implement unit tests for the financial management domain
             Assert.True(true);
         }
+    }
 
+    public class ModuloRecursosLogisticaDomainTests
+    {
         [Fact]
         public void TestGestionLogisticaDomain()
         {
@@ -247,11 +327,42 @@ namespace Universidad.Tests.Domain
             Assert.True(true);
         }
     }
+
+    public class ModuloFrontendCoreDomainTests
+    {
+        [Fact]
+        public void TestFrontendDomain()
+        {
+            // Implement unit tests for the frontend domain
+            Assert.True(true);
+        }
+
+        [Fact]
+        public void TestAutenticacionAutorizacionDomain()
+        {
+            // Implement unit tests for the authentication/authorization domain
+            Assert.True(true);
+        }
+
+        [Fact]
+        public void TestApisGatewayDomain()
+        {
+            // Implement unit tests for the APIs Gateway
+            Assert.True(true);
+        }
+
+        [Fact]
+        public void TestServiciosCompartidosDomain()
+        {
+            // Implement unit tests for the shared services domain
+            Assert.True(true);
+        }
+    }
 }
 
 namespace Universidad.Tests.Infrastructure
 {
-    public class InfrastructureTests
+    public class ModuloAcademicoInfrastructureTests
     {
         [Fact]
         public void TestGestionDocentesInfrastructure()
@@ -275,12 +386,15 @@ namespace Universidad.Tests.Infrastructure
         }
 
         [Fact]
-        public void TestGestionAsignacionInfrastructure()
+        public void TestGestionCursosInfrastructure()
         {
-            // Implement unit tests for the teacher-course-student assignment management infrastructure
+            // Implement unit tests for the course management infrastructure
             Assert.True(true);
         }
+    }
 
+    public class ModuloFinancieroInfrastructureTests
+    {
         [Fact]
         public void TestGestionPagosInfrastructure()
         {
@@ -308,7 +422,10 @@ namespace Universidad.Tests.Infrastructure
             // Implement unit tests for the financial management infrastructure
             Assert.True(true);
         }
+    }
 
+    public class ModuloRecursosLogisticaInfrastructureTests
+    {
         [Fact]
         public void TestGestionLogisticaInfrastructure()
         {
@@ -327,6 +444,37 @@ namespace Universidad.Tests.Infrastructure
         public void TestGestionRRHHInfrastructure()
         {
             // Implement unit tests for the HR management infrastructure
+            Assert.True(true);
+        }
+    }
+
+    public class ModuloFrontendCoreInfrastructureTests
+    {
+        [Fact]
+        public void TestFrontendInfrastructure()
+        {
+            // Implement unit tests for the frontend infrastructure
+            Assert.True(true);
+        }
+
+        [Fact]
+        public void TestAutenticacionAutorizacionInfrastructure()
+        {
+            // Implement unit tests for the authentication/authorization infrastructure
+            Assert.True(true);
+        }
+
+        [Fact]
+        public void TestApisGatewayInfrastructure()
+        {
+            // Implement unit tests for the APIs Gateway
+            Assert.True(true);
+        }
+
+        [Fact]
+        public void TestServiciosCompartidosInfrastructure()
+        {
+            // Implement unit tests for the shared services infrastructure
             Assert.True(true);
         }
     }
